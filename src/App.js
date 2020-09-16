@@ -1,10 +1,15 @@
 import React, { Component } from "react";
+import Header from './Header';
 
 class App extends Component {
   render() {
     return (
       <>
-        <h1>Hello</h1>
+
+        {/* Header */}
+        <Header />
+        {/* TinderCards */}
+        {/* SwipeButtons */}
       </>
     );
   }
